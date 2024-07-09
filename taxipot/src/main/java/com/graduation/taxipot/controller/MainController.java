@@ -1,4 +1,4 @@
 package com.graduation.taxipot.controller;
 
-public class HomeController {
+public class MainController {
 }
