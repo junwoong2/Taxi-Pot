@@ -8,13 +8,13 @@ import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class UserService implements UserDetailsService {
+public class UserDetailService implements UserDetailsService {
 
     private final UserRepository userRepository;
 
     @Override
     public User loadUserByUsername(String emailAddress){
-        return userRepository.findByEmail(emailAddress)
+        return userRepository.findByEmailAddress(emailAddress)
                 .orElseThrow(() -> new IllegalArgumentException((emailAddress)));
     }
 }
