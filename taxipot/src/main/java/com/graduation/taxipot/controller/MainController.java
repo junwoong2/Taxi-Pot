@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class MainController {
   @GetMapping("/")
-  public String index(){
+  public String login(){
     System.out.println("HomeController.index");
-    return "index"; // Test 삭제 할것(JJ)
+    return "login"; // Test
   }
 }
