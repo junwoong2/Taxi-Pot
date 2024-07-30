@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: taxi_pot
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/taxi_pot
+    username: root
+    password: 1234
