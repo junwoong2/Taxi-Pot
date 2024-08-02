@@ -1,0 +1,154 @@
+.container {
+ bg-[#FFFFFF]
+ flex
+ flex-col
+ items-center
+ p-[0_0_253px_3px]
+ w-[1920px]
+ box-sizing-border
+}
+.page-1 .vector {
+ rotate-[-18.68deg]
+ absolute
+ left-[-15px]
+ top-[172.3px]
+ w-[387.6px]
+ h-[339.1px]
+}
+.page-1 .group-6800 {
+ relative
+ m-[0_0_174.3px_0]
+ flex
+ p-[0_0_0_0.3px]
+ box-sizing-border
+}
+.page-1 .vector-1 {
+ relative
+ w-[741.3px]
+ h-[136.8px]
+}
+.page-1 .vector-2 {
+ w-[686.2px]
+ h-[136.8px]
+}
+.page-1 .vector-3 {
+ rotate-[-5.915deg]
+ m-[7px_0_0_0]
+ w-[472.2px]
+ h-[276.5px]
+}
+.page-1 .group-6799 {
+ rounded-[38px]
+ bg-[#8E97FD]
+ relative
+ m-[0_3px_20px_0]
+ flex
+ p-[24.5px_4.4px_23.5px_0]
+ w-[374px]
+ box-sizing-border
+}
+.page-1 .log-in {
+ break-words
+ font-['ABeeZee']
+ italic
+ font-normal
+ text-[14px]
+ tracking-[0.7px]
+ leading-[1.081]
+ text-[#F6F1FB]
+}
+.page-1 .group-6797 {
+ rounded-[15px]
+ bg-[#F2F3F7]
+ relative
+ m-[0_3px_20px_0]
+ p-[22.4px_20px_23.6px_20px]
+ w-[fit-content]
+ box-sizing-border
+}
+.page-1 .email-address {
+ border-[0.2px_solid_#A1A4B2]
+ break-words
+ font-['ABeeZee']
+ italic
+ font-normal
+ text-[16px]
+ tracking-[0.8px]
+ leading-[1.081]
+ text-[#A1A4B2]
+}
+.page-1 .group-6798 {
+ rounded-[15px]
+ bg-[#F2F3F7]
+ relative
+ m-[0_3px_30px_0]
+ p-[22.4px_20px_23.6px_20px]
+ w-[fit-content]
+ box-sizing-border
+}
+.page-1 .password {
+ border-[0.2px_solid_#A1A4B2]
+ break-words
+ font-['ABeeZee']
+ italic
+ font-normal
+ text-[16px]
+ tracking-[0.8px]
+ leading-[1.081]
+ text-[#A1A4B2]
+}
+.page-1 .welcome {
+ m-[0_173.4px_159.7px_0]
+ inline-block
+ break-words
+ font-['ABeeZee']
+ italic
+ font-normal
+ text-[35px]
+ leading-[1.35]
+ text-[#3F414E]
+}
+.page-1 .forgot-password {
+ relative
+ m-[0_10.6px_0_0]
+ break-words
+ font-['ABeeZee']
+ italic
+ font-normal
+ text-[14px]
+ tracking-[0.7px]
+ leading-[1.081]
+ text-[#3F414E]
+}
+.page-1 .removebg-preview-2 {
+ bg-[url('../assets/images/removebg_preview_3.png')]
+ bg-[50%_50%]
+ bg-cover
+ bg-no-repeat
+ absolute
+ left-[0px]
+ top-[0px]
+ w-[137px]
+ h-[140px]
+}
+.page-1 .container {
+ relative
+ flex
+ flex-col
+ items-end
+ box-sizing-border
+}
+.page-1 .container-1 {
+ m-[0_0px_35.2px_0]
+ flex
+ flex-row
+ justify-between
+ w-[1916.7px]
+ box-sizing-border
+}
+.page-1 .container-2 {
+ flex
+ flex-row
+ w-[fit-content]
+ box-sizing-border
+}

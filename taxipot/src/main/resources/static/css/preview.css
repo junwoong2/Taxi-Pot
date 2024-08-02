@@ -1,0 +1,172 @@
+.container {
+ bg-[#FFFFFF]
+ flex
+ flex-col
+ items-center
+ p-[68px_0_121px_0]
+ w-[1920px]
+ box-sizing-border
+}
+.page-3 .frame {
+ relative
+ m-[0_0_54.1px_0]
+ flex
+ flex-col
+ items-center
+ p-[23px_0.1px_0_0]
+ w-[1951px]
+ box-sizing-border
+}
+.page-3 .vector {
+ absolute
+ top-[-1.1px]
+ right-[0px]
+ w-[1937.3px]
+ h-[586.9px]
+}
+.page-3 .vector-1 {
+ relative
+ w-[1950.9px]
+ h-[82.4px]
+}
+.page-3 .group-17 {
+ m-[0_9.7px_12px_0]
+ flex
+ flex-row
+ w-[fit-content]
+ box-sizing-border
+}
+.page-3 .logo {
+ m-[0_10px_0_0]
+ flex
+ w-[30px]
+ h-[30px]
+ box-sizing-border
+}
+.page-3 .group {
+ w-[30px]
+ h-[30px]
+}
+.page-3 .taxi {
+ m-[5px_0_6px_0]
+ inline-block
+ break-words
+ font-['ABeeZee']
+ italic
+ font-normal
+ text-[16px]
+ tracking-[3.8px]
+ text-[#3F414E]
+}
+.page-3 .ayu {
+ m-[5px_15.8px_6px_0]
+ inline-block
+ break-words
+ font-['ABeeZee']
+ italic
+ font-normal
+ text-[16px]
+ tracking-[3.8px]
+ text-[#3F414E]
+}
+.page-3 .group-6778 {
+ rounded-[38px]
+ m-[0_8px_0_0]
+ flex
+ flex-col
+ items-center
+ w-[374px]
+ box-sizing-border
+}
+.page-3 .sign-in {
+ break-words
+ font-['ABeeZee']
+ italic
+ font-normal
+ text-[14px]
+ tracking-[0.7px]
+ leading-[1.081]
+ text-[#F6F1FB]
+}
+.don-thave-an-account-sign-up {
+ font-['ABeeZee']
+ italic
+ font-normal
+ text-[14px]
+ tracking-[0.7px]
+ leading-[1.333]
+ text-[#8E97FD]
+}
+.don-thave-an-account-sign-up-sub4 {
+ font-['ABeeZee']
+ italic
+ font-normal
+ text-[14px]
+ tracking-[0.7px]
+ leading-[1.333]
+ text-[#A1A4B2]
+}
+.page-3 .don-thave-an-account-sign-up {
+ m-[0_13.6px_0_0]
+ break-words
+ font-['ABeeZee']
+ italic
+ font-normal
+ text-[14px]
+ tracking-[0.7px]
+ leading-[1.081]
+ text-[#000000]
+}
+.page-3 .group-6791 {
+ m-[0_0_17.6px_18.6px]
+ flex
+ flex-col
+ w-[fit-content]
+ box-sizing-border
+}
+.page-3 .container-1 {
+ m-[0_15.8px_25.3px_15.8px]
+ inline-block
+ self-start
+ break-words
+ font-['ABeeZee']
+ font-normal
+ text-[30px]
+ leading-[1.35]
+ text-[#3F414E]
+}
+.page-3 .container-2 {
+ break-words
+ font-['ABeeZee']
+ font-normal
+ text-[16px]
+ leading-[1.65]
+ text-[#A1A4B2]
+}
+.page-3 .removebg-preview-1 {
+ bg-[url('../assets/images/removebg_preview_3.png')]
+ bg-[50%_50%]
+ bg-cover
+ bg-no-repeat
+ relative
+ m-[0_0.5px_25.1px_0]
+ w-[256.4px]
+ h-[270.9px]
+}
+.page-3 .removebg-preview-11 {
+ bg-[url('../assets/images/removebg_preview_1.png')]
+ relative
+ m-[0_3.9px_17.6px_0]
+ w-[209px]
+ h-[169px]
+}
+.page-3 .container {
+ rounded-[38px]
+ bg-[#8E97FD]
+ relative
+ m-[0_0_15px_0]
+ flex
+ p-[25px_0_23px_6.5px]
+ w-[374px]
+ box-sizing-border
+}
