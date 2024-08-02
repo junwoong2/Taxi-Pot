@@ -12,6 +12,10 @@ public class MainController {
 
 
 
+    @GetMapping("/join")
+    public String join(){
+        return "join";
+    }
 
     @GetMapping("/index")
     public String index(){
