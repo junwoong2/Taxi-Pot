@@ -25,4 +25,5 @@ public class BoardResponse {
     response.modifiedDate = board.getModifiedDate();
     return response;
   }
+
 }
