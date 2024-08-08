@@ -38,7 +38,6 @@ public class Board {
     modifiedDate = LocalDateTime.now();
   }
 
-
   @PreUpdate
   public void preUpdate() {
     modifiedDate = LocalDateTime.now();

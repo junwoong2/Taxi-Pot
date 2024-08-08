@@ -4,58 +4,46 @@ import com.graduation.taxipot.board.dto.BoardRequest;
 import com.graduation.taxipot.board.dto.BoardResponse;
 import com.graduation.taxipot.board.service.BoardService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.ModelAndView;
-
-import java.util.List;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @RequiredArgsConstructor
-@RestController
+@Controller
 public class BoardController {
 
+  private final BoardService boardService;
+
   @GetMapping("/board")
-  public ModelAndView list() {
-    ModelAndView mav = new ModelAndView("list");
-    return mav;
+  public String list(Model model) {
+    model.addAttribute("postList", boardService.findAll());
+    return "list";
   }
+
   @GetMapping("/board/post")
-  public ModelAndView post() {
-    ModelAndView mav = new ModelAndView("post");
-    return mav;
-  }
-}
-  /**
-   *
-   * @PostMapping
-  public ResponseEntity<Long> createBoard(@RequestBody BoardRequest boardRequest) {
-    Long id = boardService.save(boardRequest);
-    return ResponseEntity.ok(id);
+  public String postForm() {
+    return "post";
   }
 
-  @GetMapping
-  public ResponseEntity<List<BoardResponse>> getAllBoards() {
-    List<BoardResponse> boards = boardService.findAll();
-    return ResponseEntity.ok(boards);
+  @PostMapping("/board/post")
+  public String post(BoardRequest boardRequest) {
+    boardService.save(boardRequest);
+    return "redirect:/board"; // 글쓰기 완료 후 목록으로 리디렉션
   }
 
-  @GetMapping("/{id}")
-  public ResponseEntity<BoardResponse> getBoardById(@PathVariable Long id) {
-    BoardResponse board = boardService.findById(id);
-    return ResponseEntity.ok(board);
-  }
-
-  @PutMapping("/{id}")
-  public ResponseEntity<Void> updateBoard(@PathVariable Long id, @RequestBody BoardRequest boardRequest) {
-    boardService.update(id, boardRequest);
-    return ResponseEntity.ok().build();
-  }
-
-  @DeleteMapping("/{id}")
-  public ResponseEntity<Void> deleteBoard(@PathVariable Long id) {
+  @PostMapping("/board/delete")
+  public String delete(@RequestParam Long id) {
     boardService.delete(id);
-    return ResponseEntity.ok().build();
+    return "redirect:/board"; // 삭제 후 목록으로 리디렉션
+  }
+
+  @GetMapping("/board/{id}")
+  public String view(@PathVariable Long id, Model model) {
+    BoardResponse boardResponse = boardService.findById(id);
+    model.addAttribute("post", boardResponse);
+    return "view";
   }
 }
-   **/

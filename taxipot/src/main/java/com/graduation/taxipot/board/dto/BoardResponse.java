@@ -2,18 +2,17 @@ package com.graduation.taxipot.board.dto;
 
 import com.graduation.taxipot.board.entity.Board;
 import lombok.Getter;
-import lombok.Setter;
 
 import java.time.LocalDateTime;
-@Setter
+
 @Getter
 public class BoardResponse {
   private Long id;
   private String title;
   private String content;
   private String author;
-  private LocalDateTime createdDate;  // 생성
-  private LocalDateTime modifiedDate;   // 수정
+  private LocalDateTime createdDate;
+  private LocalDateTime modifiedDate;
 
   public static BoardResponse fromEntity(Board board) {
     BoardResponse response = new BoardResponse();
@@ -25,5 +24,4 @@ public class BoardResponse {
     response.modifiedDate = board.getModifiedDate();
     return response;
   }
-
 }
